@@ -1,0 +1,37 @@
+# Virtual environments
+backend/venv_backend/
+frontend/venv_frontend/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Dataset folder (jika dataset besar dan tidak perlu dikomit)
+dataset/
+
+# Model & artifacts
+*.keras
+*.h5
+*.joblib
+*.pkl
+*.onnx
+*.pt
+
+# Log files
+*.log
+
+# Streamlit or FastAPI runtime/config
+.streamlit/
+*.db
+*.sqlite3
+
+# IDE/editor folders
+.vscode/
+.idea/
+
+# Mac/Windows OS artifacts
+.DS_Store
+Thumbs.db
